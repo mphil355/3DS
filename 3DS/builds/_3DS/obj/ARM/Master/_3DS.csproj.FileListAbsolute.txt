@@ -42,3 +42,5 @@ C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\_3DS\obj\ARM\Master\_
 C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\_3DS\obj\ARM\Master\_3DS.dll
 C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\_3DS\obj\ARM\Master\_3DS.pdb
 C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\_3DS\obj\ARM\Master\XapCacheFile.xml
+C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\_3DS\Bin\ARM\Master\Data\level0
+C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\_3DS\Bin\ARM\Master\Data\sharedassets1.assets
