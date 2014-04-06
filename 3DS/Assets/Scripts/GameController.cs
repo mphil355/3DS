@@ -17,9 +17,15 @@ public class GameController : MonoBehaviour
 	{
 		current = 0;
 		goal = Random.Range(3, 30);
-		scoreText = GetComponentInChildren<GUIText>();
+		scoreText = GameObject.Find("Score Text").GetComponent<GUIText>();
+		ammoText = GameObject.Find("Ammo Text").GetComponent<GUIText>();
 		launcher = GameObject.FindGameObjectWithTag("Launcher").GetComponent<SymbolLauncher>();
 		UpdateScore();
+	}
+
+	void Update()
+	{
+		UpdateAmmo();
 	}
 
 	public void AddScore(int value)
@@ -32,6 +38,15 @@ public class GameController : MonoBehaviour
 	{
 		display = current.ToString() + " / " + goal.ToString();
 		scoreText.text = display;
-		ammoText.text = launcher.ammo.ToString();
+	}
+
+	void UpdateAmmo()
+	{
+		string ammoDisplay = "";
+		for(int i = 1; i <= launcher.ammo; i ++)
+		{
+			ammoDisplay += "+ ";
+		}
+		ammoText.text = ammoDisplay;
 	}
 }//end GameController.cs

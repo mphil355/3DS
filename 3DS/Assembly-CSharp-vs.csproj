@@ -50,7 +50,6 @@
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Number.cs" />
      <Compile Include="Assets\Scripts\NumberSpawner.cs" />
-     <Compile Include="Assets\Scripts\Slingshot.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
      <Compile Include="Assets\Scripts\SymbolLauncher.cs" />
   </ItemGroup>

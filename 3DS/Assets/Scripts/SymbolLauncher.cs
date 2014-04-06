@@ -3,7 +3,6 @@ using System.Collections;
 
 public class SymbolLauncher : MonoBehaviour 
 {
-	[HideInInspector]
 	public int ammo;
 
 	private Vector3 originalSymbolPosition;
@@ -33,7 +32,7 @@ public class SymbolLauncher : MonoBehaviour
 
 	void Update () 
 	{
-		if(current != null)
+		if(current != null && ammo > 0)
 		{
 			if (Input.GetMouseButton(0))
 				LaunchBegin();
