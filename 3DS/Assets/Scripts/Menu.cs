@@ -2,12 +2,19 @@
 using System.Collections;
 
 public class Menu : MonoBehaviour 
-{
+{	
+	private ScreenFader fader;
+
+	void Start()
+	{		
+		fader = GetComponent<ScreenFader>();
+	}
+
 	void OnGUI()
 	{
 		if(GUI.Button(new Rect(Screen.width/10, Screen.height/2, Screen.width/4, Screen.height/10), "Start"))
 		{
-			Application.LoadLevel("Level");
+			StartCoroutine(FadeToLevel());
 		}
 		if(GUI.Button(new Rect(Screen.width/2.6f, Screen.height/2, Screen.width/4, Screen.height/10), "Options"))
 		{
@@ -17,5 +24,12 @@ public class Menu : MonoBehaviour
 		{
 			print ("exit");
 		}
+	}
+	
+	IEnumerator FadeToLevel()
+	{
+		fader.EndScene(2);
+		yield return new WaitForSeconds(2);
+		Application.LoadLevel("Level");
 	}
 }
