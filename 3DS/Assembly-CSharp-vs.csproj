@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\NumberSpawner.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
      <Compile Include="Assets\Scripts\SymbolLauncher.cs" />
+     <Compile Include="Assets\Scripts\WaterCatcher.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
