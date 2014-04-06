@@ -32,7 +32,7 @@ public class SymbolLauncher : MonoBehaviour
 
 	void Update () 
 	{
-		if(current != null && ammo > 0)
+		if(current != null)
 		{
 			if (Input.GetMouseButton(0))
 				LaunchBegin();
@@ -49,7 +49,7 @@ public class SymbolLauncher : MonoBehaviour
 			}
 		}
 		//print ("spawn: " + canSpawn + "launch: " + launchInProgress);
-		if(canSpawn && !symbolInLauncher)
+		if(canSpawn && !symbolInLauncher && ammo > 0)
 			SpawnMathSymbol();
 	}
 
@@ -77,6 +77,7 @@ public class SymbolLauncher : MonoBehaviour
 		launchInProgress = false;
 		symbolInLauncher = false;
 		canSpawn = false;
+		current.collider2D.enabled = true;
 		current.rigidbody2D.velocity = Vector2.zero;
 		current.rigidbody2D.AddForce((transform.position - current.transform.position) * forceConstant);
 		ammo -= 1;
@@ -90,5 +91,6 @@ public class SymbolLauncher : MonoBehaviour
 		symbolInLauncher = true;
 		current = Instantiate(symbols[currentIndex], transform.position, Quaternion.identity) as GameObject;
 		current.transform.position = originalSymbolPosition;
+		current.collider2D.enabled = false;
 	}
 }
