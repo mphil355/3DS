@@ -11,8 +11,12 @@ using System.Collections;
 
 public class Splash : MonoBehaviour 
 {
+	private float randomZRotation;
+
 	void Start()
 	{
-		Destroy(gameObject, .25f);
+		randomZRotation = Random.Range(0, 90);
+		transform.Rotate(new Vector3(0, 0, randomZRotation));
+		Destroy(gameObject, .20f);
 	}
 }//end Splash.cs

@@ -8,7 +8,8 @@ public class Slingshot : MonoBehaviour {
 	
 	public float maxDistance;
 	public float forceConstant;
-	
+
+	public int ammo;
 	private bool attack;
 
 	// Use this for initialization
@@ -24,7 +25,7 @@ public class Slingshot : MonoBehaviour {
 			AttackEnded();
 	}
 	
-	public void AttackBegin() {
+	void AttackBegin() {
 		attack = true;
 		//print ("clicked");
 		bullet.rigidbody2D.gravityScale = 0;
@@ -41,11 +42,17 @@ public class Slingshot : MonoBehaviour {
 		bullet.transform.position = launcherPosition;
 	}
 	
-	public void AttackEnded() {
+	void AttackEnded() {
 		attack = false;
 		print ("released");
 		bullet.rigidbody2D.velocity = Vector3.zero;
 		bullet.rigidbody2D.gravityScale = 1;
 		bullet.rigidbody2D.AddForce((target.transform.position - bullet.transform.position) * forceConstant);
 	}
+
+	void PreviewLine()
+	{
+
+	}
+
 }

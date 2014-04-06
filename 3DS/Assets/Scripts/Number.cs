@@ -18,7 +18,7 @@ public class Number : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		print ("Hit");
+		//print ("Hit");
 		if(col.gameObject.tag == "MathSymbols")
 		{
 			gameController.AddScore(value);

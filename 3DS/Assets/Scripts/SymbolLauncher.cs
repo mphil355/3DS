@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SymbolLauncher : MonoBehaviour {
+public class SymbolLauncher : MonoBehaviour 
+{
+	[HideInInspector]
+	public int ammo;
 
 	private Vector3 originalSymbolPosition;
 	private int currentIndex;
@@ -14,6 +17,7 @@ public class SymbolLauncher : MonoBehaviour {
 	public float spawnRate;
 	public int maxDistance;
 	public float forceConstant;
+
 
 	public GameObject[] symbols;
 
@@ -76,6 +80,7 @@ public class SymbolLauncher : MonoBehaviour {
 		canSpawn = false;
 		current.rigidbody2D.velocity = Vector2.zero;
 		current.rigidbody2D.AddForce((transform.position - current.transform.position) * forceConstant);
+		ammo -= 1;
 		Destroy (current, 5);
 		current = null;
 	}
