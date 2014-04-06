@@ -9,11 +9,11 @@ public class Number : MonoBehaviour
 	public GameObject splash;
 	public GameObject droplet;
 
-	private GameController gameController;
+	private float randomZRotation;
 
 	void Start()
 	{
-		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+		Random.seed = System.DateTime.Now.Second;
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
@@ -21,10 +21,24 @@ public class Number : MonoBehaviour
 		//print ("Hit");
 		if(col.gameObject.tag == "MathSymbols")
 		{
-			gameController.AddScore(value);
+			SpawnDroplets();
 			Destroy(gameObject);
 			Destroy(col.gameObject);
 			Instantiate(splash, transform.position, Quaternion.identity);
+		}
+	}
+
+	void SpawnDroplets()
+	{
+		Vector2 launch;
+		GameObject drop;
+		for (int i = 0; i < value; i++)
+		{
+			launch = new Vector2(Random.Range(-1, 1), Random.Range(2, 4));
+			randomZRotation = Random.Range(0, 360);
+			drop = Instantiate(droplet, transform.position, Quaternion.identity) as GameObject;
+			drop.transform.Rotate(new Vector3(0, 0, randomZRotation));
+			drop.rigidbody2D.velocity = launch;
 		}
 	}
 	

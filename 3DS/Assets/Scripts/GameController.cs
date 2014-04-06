@@ -4,8 +4,9 @@ using System.Collections;
 
 public class GameController : MonoBehaviour 
 {
+	[HideInInspector]
+	public int current;
 	private int goal;
-	private int current;
 
 	private GUIText scoreText;
 	private GUIText ammoText;
@@ -28,6 +29,7 @@ public class GameController : MonoBehaviour
 	void Update()
 	{
 		UpdateAmmo();
+		UpdateScore();
 		if(launcher.ammo <= 0 || current >= goal)
 			gameOver = true;
 	}
@@ -36,12 +38,6 @@ public class GameController : MonoBehaviour
 	{
 		if(gameOver)
 			GameOver();
-	}
-
-	public void AddScore(int value)
-	{
-		current += value;
-		UpdateScore();
 	}
 
 	void UpdateScore()
