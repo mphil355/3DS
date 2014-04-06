@@ -6,6 +6,8 @@ using System.Collections;
 public class Number : MonoBehaviour 
 {
 	public int value;
+	public GameObject splash;
+	public GameObject droplet;
 
 	private GameController gameController;
 
@@ -22,6 +24,7 @@ public class Number : MonoBehaviour
 			gameController.AddScore(value);
 			Destroy(gameObject);
 			Destroy(col.gameObject);
+			Instantiate(splash, transform.position, Quaternion.identity);
 		}
 	}
 	
