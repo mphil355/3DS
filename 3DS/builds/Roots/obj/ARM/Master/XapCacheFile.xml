@@ -1,0 +1,33 @@
+﻿<xapCache source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Bin\ARM\Master\Roots_Master_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="4/6/2014 3:05:25 PM">
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\obj\ARM\Master\Roots.dll" archivePath="Roots.dll" lastWriteTime="4/6/2014 3:05:21 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\level0" archivePath="Data\level0" lastWriteTime="4/6/2014 3:05:13 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\level1" archivePath="Data\level1" lastWriteTime="4/6/2014 3:05:13 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\mainData" archivePath="Data\mainData" lastWriteTime="4/6/2014 3:05:15 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\managedAssemblies.txt" archivePath="Data\managedAssemblies.txt" lastWriteTime="4/6/2014 3:05:20 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\Resources\unity default resources" archivePath="Data\Resources\unity default resources" lastWriteTime="11/25/2013 11:09:08 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\Resources\unity_builtin_extra" archivePath="Data\Resources\unity_builtin_extra" lastWriteTime="4/6/2014 3:05:15 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\sharedassets0.assets" archivePath="Data\sharedassets0.assets" lastWriteTime="4/6/2014 3:05:15 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\sharedassets1.assets" archivePath="Data\sharedassets1.assets" lastWriteTime="4/6/2014 3:05:15 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Data\sharedassets2.assets" archivePath="Data\sharedassets2.assets" lastWriteTime="4/6/2014 3:05:15 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Bin\ARM\Master\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/6/2014 3:03:44 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Bin\ARM\Master\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Bin\ARM\Master\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/19/2013 11:49:44 AM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Assembly-CSharp.dll" archivePath="Assembly-CSharp.dll" lastWriteTime="4/6/2014 3:05:20 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\BridgeInterface.winmd" archivePath="BridgeInterface.winmd" lastWriteTime="11/25/2013 12:01:18 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\UnityEngine.dll" archivePath="UnityEngine.dll" lastWriteTime="4/6/2014 3:05:18 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\UnityEngineDelegates.winmd" archivePath="UnityEngineDelegates.winmd" lastWriteTime="11/25/2013 12:01:22 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\UnityEngineProxy.dll" archivePath="UnityEngineProxy.dll" lastWriteTime="11/25/2013 12:01:26 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\UnityPlayer.winmd" archivePath="UnityPlayer.winmd" lastWriteTime="11/25/2013 12:08:32 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\WinRTBridge.dll" archivePath="WinRTBridge.dll" lastWriteTime="11/25/2013 12:01:24 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\WinRTLegacy.dll" archivePath="WinRTLegacy.dll" lastWriteTime="4/6/2014 3:05:19 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\BridgeInterface.dll" archivePath="BridgeInterface.dll" lastWriteTime="11/25/2013 12:01:18 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\UnityEngineDelegates.dll" archivePath="UnityEngineDelegates.dll" lastWriteTime="11/25/2013 12:01:22 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Players\ARM\Master\UnityPlayer.dll" archivePath="UnityPlayer.dll" lastWriteTime="11/25/2013 12:09:02 PM" />
+  <file source="C:\Users\Muhammad Naviwala\Documents\GitHub\3DS\3DS\builds\Roots\Bin\ARM\Master\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="4/6/2014 3:03:45 PM" />
+</xapCache>
